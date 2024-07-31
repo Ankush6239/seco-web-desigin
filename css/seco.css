@@ -1,0 +1,47 @@
+#secobtn{
+    border-top:2px solid #FF0A54 ;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    color: #FF0A54;
+    border-bottom:2px solid #FF0A54 ;
+    font-size: 20px;
+    font-weight: 600;
+}
+#secobtn:hover{
+    color: blue;
+    font-size: 25px;
+    transition: font-size 1s ease-in-out;
+}
+#secoh2{
+    font-size: 20px;
+    background-color: 	rgb(255, 10, 84,0.1);
+    border: 1px solid #FF0A54;
+    border-radius: 10px;
+    color: #FF0A54;
+}
+#secoh1{
+    font-size: ;
+    font-weight: bold;
+}
+#secobtn2{
+    border-top:2px solid #FF0A54 ;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    color: #FF0A54;
+    border-bottom:2px solid #FF0A54 ;
+    font-size: 20px;
+    font-weight: 600;
+}
+#secobtn3{
+    border-top:2px solid black ;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    color: black;
+    border-bottom:2px solid black ;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
