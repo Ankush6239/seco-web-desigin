@@ -106,28 +106,52 @@
   #spacingsm{
     top: 40px;
   }
-  /* #w-50 {
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 40px;
-  } */
-}
-@media all and (max-width: 900px) and (min-width: 600px) {
-  #fullwidthsm {
-    margin-left: 0%;
-    margin-right: 0px;
-    width: 100%;
-  }
+ 
 }
 
-/* #fullwidthsm{
-  margin-left: 102px;
-  margin-right: -60px;
-  width: 100%;
-} */
+#comp{
+
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 600;
+  
+}
+@media all and (max-width: 900px) {
+  #comp{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    
+  }
+}
+.pi{
+  margin-left: 31px;
+  margin-right: 0px;
+}
+@media all and (max-width: 900px)  {
+  .pi{
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 314px;
+  }
+}
+#fullwidthsm{
+  margin-left: 100px;
+}
 #fullwidthsm img{
   width: 100%;
-  max-width: 700px;
+  max-width: 650px;
+}
+@media all and (max-width: 900px)  {
+  #fullwidthsm{
+    margin-left: 0px;
+  }
+}
+@media all and (max-width: 900px)  {
+  #fullwidthsm img{
+    width: 100%;
+    max-width: 328px;
+  }
 }
 @media all and (max-width: 995px) {
   #secoh1 {
@@ -241,15 +265,44 @@
   margin-left: 206px;
   margin-top: 84px;
 }
+.menimg img {
+  width: 100%;
+}
 @media all and (max-width: 900px) {
   .menimg {
-    width: 100%;
-    position: relative;
-    padding-top: 10px; 
-    padding-left: 30px;
+    /* width: 100%;
+    position: relative; */
+    margin-left: -15px;
+    margin-top: -121px;
   }
+  .menimg img{
+    width: 100%;
+  }
+  
 }
-
+#ourservice{
+  margin-left: 488px;
+} 
+#ourservice2{
+  margin-left: 39px;
+} 
+@media all and (max-width: 900px) {
+  #ourservice{
+    margin-left: 90px;
+  } 
+}
+#tr{
+   padding-left: 126px;
+}
+@media all and (max-width: 900px) {
+  #tr{
+    margin-left: -13px;
+    width: 100%;
+    max-width: 157px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+}
 .menimg {
   width: 100%;
   position: relative;
@@ -261,6 +314,29 @@
   font-size: 44px;
   line-height: 60px;
   font-weight: 600;
+  width: 487px;
+}
+#w-502{
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 600;
+  width: 487px;
+}
+@media all and (max-width: 900px) {
+  #w-502{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    width: 262px;
+  }
+}
+@media all and (max-width: 900px) {
+  #w-50{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+  
+  }
 }
 #rowbc2 {
 
@@ -455,7 +531,7 @@ body {
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   #container {
-    flex-direction: column;
+    /* flex-direction: column; */
     height: auto;
     /* Allow the container to adjust its height */
     align-items: center;
