@@ -747,5 +747,50 @@ body {
   border: none;
   padding: 10px;
   font-size: 20px;
-  margin-bootm: 10px;
+  /* margin-bootm: 10px; */
+}
+#offcanvasExample{
+  background-color: #FF0A54;
+  width: 100%;
+}
+.xmark{
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: white;
+  display:flex;
+  justify-content: flex-end;
+}
+#pink2{
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-weight: 600;
+}
+#mbco{
+  color: white;
+  line-height: 24px;
+  font-size: 24px;
+  font-weight:600;
+}
+#facbook{
+  border: 1px solid white;
+  font-size: 15px;
+  color: white;
+  border-radius: 100%;
+  padding: 13px;
+}
+#facbook:hover{
+  background-color: white;
+  color: #FF0A54;
+
+}
+#ccd{
+  color: white;
+  font-size: 16px;
+  font-weight:500 ;
+  line-height: 24px;
+
 }
