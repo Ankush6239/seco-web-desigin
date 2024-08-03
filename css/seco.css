@@ -661,8 +661,28 @@ body {
 
 #Learn:hover {
   color: #FF0A54;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
 }
-
+.textwhite{
+  color: white;
+  font-size:32px ;
+  line-height: 40px;
+  font-weight: 600;
+}
+.fwbold{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+}
+@media all and (max-width: 900px) {
+  #left{
+    float: left;
+    padding-top: 31px;
+    padding-bottom: 19px;
+  }
+}
 #Learn2:hover {
   color: #FF0A54;
 }
@@ -703,8 +723,16 @@ body {
 }
 
 #blog {
-  font-size: 17px;
-  padding-top: 200px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  
+}
+@media all and (max-width: 900px) {
+  #blog{
+  
+    margin-top: 10px;
+  }
 }
 
 #blog:hover {
@@ -719,4 +747,5 @@ body {
   border: none;
   padding: 10px;
   font-size: 20px;
+  margin-bootm: 10px;
 }
