@@ -32,12 +32,30 @@
 
 #navbar {
   background-color: #FF0A54;
-  padding: 10px;
-  color: white;
-  border-radius: 13px;
-  border: 1px solid white;
-}
 
+  color: white;
+  border-radius: 6px;
+  border: 1px solid white;
+  font-size: 28px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#gap-3{
+  display: flex;
+  gap: 50px;
+}
+@media all and (max-width: 900px) {
+  #gap-3{
+    display: block;
+    margin-bottom:30px ;
+  }
+}
+@media all and (max-width: 900px) {
+  #secobtn2{
+    display: block;
+    margin-bottom:30px ;
+  }
+}
 /* Custom CSS to apply background color on small screens */
 @media all and (max-width: 995px) {
   #conthead2 {
@@ -98,7 +116,7 @@
 }
 
 #secoh1 {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 600;
 }
 
@@ -267,6 +285,10 @@
 }
 .menimg img {
   width: 100%;
+  position: relative;
+/*  padding-top: 129px;*/
+  padding-left: 30px;
+  max-width: 331px;
 }
 @media all and (max-width: 900px) {
   .menimg {
@@ -375,7 +397,7 @@
 
 #secimg {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   max-width: 80px;
   background: rgb(255, 10, 84, 0.1);
   padding: 10px;
@@ -387,7 +409,8 @@
 #seccard{
   width: 100%;
   max-width: 500px;
-  height: 320px;
+  /* height: 320px; */
+  transform: translateZ(0) scale(0.9);
 }
 #seccard:hover #secimg {
   background-color: white;
@@ -638,7 +661,15 @@ body {
   overflow: auto;
 
 }
-
+#stra{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+}
+#secbtn4a{
+  justify-content: center;
+  display: flex;
+}
 #gooleli {
   display: inline;
   padding-left: 5px;
@@ -683,8 +714,37 @@ body {
     padding-bottom: 19px;
   }
 }
+#Learn2a{
+  font-size: 19px;
+  font-weight: 600;
+}
+#rightone{
+  display: flex;
+  justify-content: left;
+  
+}
+#Learn3{
+  font-size: 16px; 
+  background: none;
+  border: none;
+  font-weight: 700;
+  line-height: 16px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+#Learn3:hover{
+  color: #FF0A54;
+}
 #Learn2:hover {
   color: #FF0A54;
+}
+#width1{
+  width: 44%;
+}
+@media all and (max-width: 900px) {
+  #width1{
+  width: 100%;
+  }
 }
 
 #pink1 {
@@ -793,4 +853,111 @@ body {
   font-weight:500 ;
   line-height: 24px;
 
+}
+#relative{
+  position: relative;
+}
+#absolute{
+  position: absolute;
+  max-width: 100%;
+  max-height: 50%;
+  left: -5px;
+  top: -165px;
+}
+#absolute2{
+  position: absolute;
+  max-width: 100%;
+  max-height: 50%;
+  left: 173px;
+  top: 2x;
+}
+#absolute3{
+  position: absolute;
+  max-width: 100%;
+  /* max-height: 50%; */
+  left: -25px;
+  top: 226px;
+}
+#absolute4{
+  position: absolute;
+  max-width: 100%;
+  /* max-height: 50%; */
+  left: 84px;
+  top: 101px
+}
+#absolute5{
+  position: absolute;
+  max-width: 100%;
+  max-height: 50%;
+  top: 62px;
+  right: 135px;
+}
+#absolute5{
+  position: absolute;
+  max-width: 100%;
+  max-height: 50%;
+  top: 62px;
+  right: 135px;
+}
+#absolute6{
+  position: absolute;
+  max-width: 100%;
+  max-height: 50%;
+  top: -38px;
+  right: -36px;
+}
+#weare{
+  background-color: transparent;
+  width: 20rem;
+  border: none;
+  top: 260px;
+  position: absolute;
+  right: -99px;
+}
+#fastar{
+color: #FF0A54;
+}
+#weare2{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: ;
+  right: -76px;
+}
+ 
+@media (max-width: 600px) {
+  #absolute,
+  #absolute2,
+  #absolute3,
+  #absolute4,
+  #absolute5,
+  #absolute6,
+  #weare {
+    display: none;
+  }
+  
+  #weare2 {
+    display: none;
+  }
+}
+
+#menbig{
+ height: 585px;
+  max-width: 100%
+}
+@media (max-width: 767px) {
+  #menbig {
+        height: 165px;
+    max-width: 100%;
+  }
+}
+#kaliuimg3{
+  padding-top: 74px;
+  padding-right: 60px;
+}
+@media (max-width: 767px) {
+#kaliuimg3{
+      padding-top: 14px;
+   padding-right: 0px;
+
+  }
 }
